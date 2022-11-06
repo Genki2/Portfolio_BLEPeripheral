@@ -26,6 +26,9 @@
                                 <rect key="frame" x="158" y="204" width="59" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="送信"/>
+                                <connections>
+                                    <action selector="transmitText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e2k-fT-PJS"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -40,7 +43,7 @@
                     </view>
                     <connections>
                         <outlet property="inputTextFIeld" destination="wsd-f2-kgb" id="i09-n2-ybs"/>
-                        <outlet property="transmitBtn" destination="ed8-Fl-GGT" id="GQG-zX-0so"/>
+                        <outlet property="transmitBtn" destination="ed8-Fl-GGT" id="jnr-3g-fJC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
