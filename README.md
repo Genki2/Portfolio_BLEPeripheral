@@ -1,0 +1,2 @@
+# Portfolio_BLEPeripheral
+Bluetoothを使用して任意の数字を送信するアプリ
