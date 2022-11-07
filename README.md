@@ -5,6 +5,9 @@ Bluetoothを使用して任意の数字を送信するアプリ
 
 [受信側リポジトリ](https://github.com/Genki2/Portfolio_BLECentral)
 
+## アーキテクチャ
+MVC
+
 ## 使用ライブラリー
 * CoreBluetooth
 
